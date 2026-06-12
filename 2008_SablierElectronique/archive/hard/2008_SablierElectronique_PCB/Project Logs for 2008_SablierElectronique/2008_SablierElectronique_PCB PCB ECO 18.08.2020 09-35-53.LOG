@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=NetR6_1 Pin=S1-2
+Removed Pin From Net: NetName=NetR5_1 Pin=S2-2
+Removed Pin From Net: NetName=NetR4_1 Pin=S3-2
+Added Pin To Net: NetName=VCC Pin=S1-2
+Added Pin To Net: NetName=VCC Pin=S2-2
+Added Pin To Net: NetName=VCC Pin=S3-2
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component S1 Bouton HAUT
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component S3 Bouton H/M/S
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component S4 FSM4JH

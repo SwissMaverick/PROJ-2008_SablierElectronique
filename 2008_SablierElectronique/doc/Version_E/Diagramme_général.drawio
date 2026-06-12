@@ -1,0 +1,48 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.4">
+  <diagram name="Page-1" id="K-eILDEQTzo0YNcM_6X4">
+    <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VrG6ILgF100GnFYd5KOz-13" edge="1" parent="1" source="VrG6ILgF100GnFYd5KOz-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" target="VrG6ILgF100GnFYd5KOz-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VrG6ILgF100GnFYd5KOz-18" edge="1" parent="1" source="VrG6ILgF100GnFYd5KOz-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="VrG6ILgF100GnFYd5KOz-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VrG6ILgF100GnFYd5KOz-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="Carte principale" vertex="1">
+          <mxGeometry height="40" width="100" x="350" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="VrG6ILgF100GnFYd5KOz-20" edge="1" parent="1" source="VrG6ILgF100GnFYd5KOz-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VrG6ILgF100GnFYd5KOz-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="Commande du sablier" vertex="1">
+          <mxGeometry height="40" width="100" x="350" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="VrG6ILgF100GnFYd5KOz-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="Matrices à LEDs" vertex="1">
+          <mxGeometry height="40" width="100" x="350" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="VrG6ILgF100GnFYd5KOz-14" edge="1" parent="1" source="VrG6ILgF100GnFYd5KOz-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" target="VrG6ILgF100GnFYd5KOz-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VrG6ILgF100GnFYd5KOz-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="PC" vertex="1">
+          <mxGeometry height="40" width="100" x="570" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="VrG6ILgF100GnFYd5KOz-12" parent="1" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer_with_Server.svg;" value="" vertex="1">
+          <mxGeometry height="62.400000000000006" width="62.400000000000006" x="588.8" y="367.6" as="geometry" />
+        </mxCell>
+        <mxCell id="VrG6ILgF100GnFYd5KOz-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="WiFi et/ou USB" vertex="1">
+          <mxGeometry height="30" width="90" x="470" y="308.8" as="geometry" />
+        </mxCell>
+        <mxCell id="VrG6ILgF100GnFYd5KOz-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="USB" vertex="1">
+          <mxGeometry height="30" width="90" x="470" y="341.2" as="geometry" />
+        </mxCell>
+        <mxCell id="K5fJkGzkV_CKEuJROdkX-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" value="" vertex="1">
+          <mxGeometry height="200" width="130" x="340" y="240" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

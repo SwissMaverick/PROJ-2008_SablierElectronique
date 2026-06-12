@@ -1,0 +1,10 @@
+C:\Users\mardossantos\Desktop\2008_SablierElectronique\soft\Application C#\2008_SablierElectronique\2008_SablierElectronique\bin\Debug\2008_SablierElectronique.exe.config
+C:\Users\mardossantos\Desktop\2008_SablierElectronique\soft\Application C#\2008_SablierElectronique\2008_SablierElectronique\bin\Debug\2008_SablierElectronique.exe
+C:\Users\mardossantos\Desktop\2008_SablierElectronique\soft\Application C#\2008_SablierElectronique\2008_SablierElectronique\bin\Debug\2008_SablierElectronique.pdb
+C:\Users\mardossantos\Desktop\2008_SablierElectronique\soft\Application C#\2008_SablierElectronique\2008_SablierElectronique\obj\Debug\2008_SablierElectronique.csprojAssemblyReference.cache
+C:\Users\mardossantos\Desktop\2008_SablierElectronique\soft\Application C#\2008_SablierElectronique\2008_SablierElectronique\obj\Debug\_2008_SablierElectronique.Form1.resources
+C:\Users\mardossantos\Desktop\2008_SablierElectronique\soft\Application C#\2008_SablierElectronique\2008_SablierElectronique\obj\Debug\_2008_SablierElectronique.Properties.Resources.resources
+C:\Users\mardossantos\Desktop\2008_SablierElectronique\soft\Application C#\2008_SablierElectronique\2008_SablierElectronique\obj\Debug\2008_SablierElectronique.csproj.GenerateResource.cache
+C:\Users\mardossantos\Desktop\2008_SablierElectronique\soft\Application C#\2008_SablierElectronique\2008_SablierElectronique\obj\Debug\2008_SablierElectronique.csproj.CoreCompileInputs.cache
+C:\Users\mardossantos\Desktop\2008_SablierElectronique\soft\Application C#\2008_SablierElectronique\2008_SablierElectronique\obj\Debug\2008_SablierElectronique.exe
+C:\Users\mardossantos\Desktop\2008_SablierElectronique\soft\Application C#\2008_SablierElectronique\2008_SablierElectronique\obj\Debug\2008_SablierElectronique.pdb

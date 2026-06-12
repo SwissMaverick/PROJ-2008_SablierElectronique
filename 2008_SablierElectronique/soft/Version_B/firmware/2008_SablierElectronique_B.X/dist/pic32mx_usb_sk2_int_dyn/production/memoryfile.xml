@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<project>                                  
+  <executable name="dist/pic32mx_usb_sk2_int_dyn/production/2008_SablierElectronique_B.X.production.elf">                 
+    <memory name="program">                 
+      <units>bytes</units>                 
+      <length>531968</length>                 
+      <used>56008</used>                     
+      <free>475960</free>                     
+    </memory>                              
+    <memory name="data">              
+      <units>bytes</units>                 
+      <length>131072</length>                 
+      <used>2136</used>                     
+      <free>128936</free>                     
+    </memory>                              
+  </executable>                            
+</project>                                 

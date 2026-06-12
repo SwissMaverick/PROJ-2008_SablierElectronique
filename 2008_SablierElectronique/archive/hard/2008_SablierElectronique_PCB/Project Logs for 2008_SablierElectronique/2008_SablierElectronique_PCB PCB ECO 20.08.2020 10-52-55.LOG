@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=NetR7_1 Pin=S2-1
+Removed Pin From Net: NetName=NetR6_1 Pin=S3-1
+Added Pin To Net: NetName=NetR6_1 Pin=S2-1
+Added Pin To Net: NetName=NetR7_1 Pin=S3-1
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component R4 51k
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component R5 100k
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component R7 10k
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component R8 10k
+Added Room: Name=2008_SablierElectronique_Alim
+Added Room: Name=2008_SablierElectronique_Commande_Matrice
+Added Room: Name=2008_SablierElectronique_MosfetConnections
+Added Room: Name=2008_SablierElectronique_SCH

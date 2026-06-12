@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=LB4 Pin=U2-64
+Removed Pin From Net: NetName=LB2 Pin=U2-73
+Removed Pin From Net: NetName=LB3 Pin=U2-74
+Added Pin To Net: NetName=LB2 Pin=U2-64
+Added Pin To Net: NetName=LB3 Pin=U2-73
+Added Pin To Net: NetName=LB4 Pin=U2-74
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component X1 USB

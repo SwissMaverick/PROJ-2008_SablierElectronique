@@ -1,0 +1,8 @@
+Added Pin To Net: NetName=+5 Pin=C15-1
+Added Pin To Net: NetName=+5 Pin=C16-1
+Added Pin To Net: NetName=+5 Pin=R13-2
+Added Pin To Net: NetName=+5 Pin=U4-1
+Added Room: Name=2008_SablierElectronique_Alim
+Added Room: Name=2008_SablierElectronique_Commande_Matrice
+Added Room: Name=2008_SablierElectronique_MosfetConnections
+Added Room: Name=2008_SablierElectronique_SCH

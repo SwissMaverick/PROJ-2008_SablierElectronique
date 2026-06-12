@@ -1,0 +1,9 @@
+Added Component: Designator=C4(RESC0805(2012)_L)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=+5 Pin=C4-2
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component C4 100nF
+Added Room: Name=2008_SablierElectronique_Alim
+Added Room: Name=2008_SablierElectronique_Commande_Matrice
+Added Room: Name=2008_SablierElectronique_MosfetConnections
+Added Room: Name=2008_SablierElectronique_SCH

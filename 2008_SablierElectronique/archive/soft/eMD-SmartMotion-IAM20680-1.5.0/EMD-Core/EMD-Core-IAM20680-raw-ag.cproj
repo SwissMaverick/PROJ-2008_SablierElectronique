@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>7.0</ProjectVersion>
+    <ToolchainName>com.Atmel.ARMGCC.C</ToolchainName>
+    <ProjectGuid>{ac487304-a1cf-429c-bf2f-4dbda5462525}</ProjectGuid>
+    <avrdevice>ATSAMG55J19</avrdevice>
+    <avrdeviceseries>none</avrdeviceseries>
+    <OutputType>StaticLibrary</OutputType>
+    <Language>C</Language>
+    <OutputFileName>lib$(MSBuildProjectName)</OutputFileName>
+    <OutputFileExtension>.a</OutputFileExtension>
+    <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
+    <AvrGccProjectExtensions>
+    </AvrGccProjectExtensions>
+    <AssemblyName>EMD-Core</AssemblyName>
+    <Name>EMD-Core</Name>
+    <RootNamespace>EMD-Core</RootNamespace>
+    <ToolchainFlavour>Native</ToolchainFlavour>
+    <KeepTimersRunning>true</KeepTimersRunning>
+    <OverrideVtor>false</OverrideVtor>
+    <CacheFlash>true</CacheFlash>
+    <ProgFlashFromRam>true</ProgFlashFromRam>
+    <RamSnippetAddress>0x20000000</RamSnippetAddress>
+    <UncachedRange />
+    <preserveEEPROM>true</preserveEEPROM>
+    <OverrideVtorValue>exception_table</OverrideVtorValue>
+    <BootSegment>2</BootSegment>
+    <eraseonlaunchrule>0</eraseonlaunchrule>
+    <AsfFrameworkConfig>
+      <framework-data>
+        <options />
+        <configurations />
+        <files />
+        <documentation help="" />
+        <offline-documentation help="" />
+        <dependencies>
+          <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.39.0" />
+        </dependencies>
+      </framework-data>
+    </AsfFrameworkConfig>
+    <ResetRule>0</ResetRule>
+    <EraseKey />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <ToolchainSettings>
+      <ArmGcc>
+  <armgcc.common.outputfiles.hex>True</armgcc.common.outputfiles.hex>
+  <armgcc.common.outputfiles.lss>True</armgcc.common.outputfiles.lss>
+  <armgcc.common.outputfiles.eep>True</armgcc.common.outputfiles.eep>
+  <armgcc.common.outputfiles.bin>True</armgcc.common.outputfiles.bin>
+  <armgcc.common.outputfiles.srec>True</armgcc.common.outputfiles.srec>
+  <armgcc.compiler.symbols.DefSymbols>
+    <ListValues>
+      <Value>NDEBUG</Value>
+    </ListValues>
+  </armgcc.compiler.symbols.DefSymbols>
+  <armgcc.compiler.directories.IncludePaths>
+    <ListValues>
+      <Value>%24(PackRepoDir)\atmel\SAMG_DFP\2.0.76\samg55\include</Value>
+      <Value>%24(PackRepoDir)\arm\cmsis\4.2.0\CMSIS\Include\</Value>
+    </ListValues>
+  </armgcc.compiler.directories.IncludePaths>
+  <armgcc.compiler.optimization.level>Optimize for size (-Os)</armgcc.compiler.optimization.level>
+  <armgcc.compiler.optimization.PrepareFunctionsForGarbageCollection>True</armgcc.compiler.optimization.PrepareFunctionsForGarbageCollection>
+  <armgcc.compiler.warnings.AllWarnings>True</armgcc.compiler.warnings.AllWarnings>
+  <armgcc.linker.libraries.Libraries>
+    <ListValues>
+      <Value>libm</Value>
+    </ListValues>
+  </armgcc.linker.libraries.Libraries>
+  <armgcc.linker.optimization.GarbageCollectUnusedSections>True</armgcc.linker.optimization.GarbageCollectUnusedSections>
+  <armgcc.assembler.general.IncludePaths>
+    <ListValues>
+      <Value>%24(PackRepoDir)\atmel\SAMG_DFP\2.0.76\samg55\include</Value>
+      <Value>%24(PackRepoDir)\arm\cmsis\4.2.0\CMSIS\Include\</Value>
+    </ListValues>
+  </armgcc.assembler.general.IncludePaths>
+  <armgcc.preprocessingassembler.general.IncludePaths>
+    <ListValues>
+      <Value>%24(PackRepoDir)\atmel\SAMG_DFP\2.0.76\samg55\include</Value>
+      <Value>%24(PackRepoDir)\arm\cmsis\4.2.0\CMSIS\Include\</Value>
+    </ListValues>
+  </armgcc.preprocessingassembler.general.IncludePaths>
+</ArmGcc>
+    </ToolchainSettings>
+    <UsesExternalMakeFile>True</UsesExternalMakeFile>
+    <OutputDirectory />
+    <BuildTarget>INVN_EMD_SDK_PATH=.\ SHELL=cmd all DEBUG=no</BuildTarget>
+    <CleanTarget>INVN_EMD_SDK_PATH=.\ SHELL=cmd clean</CleanTarget>
+    <ExternalMakeFilePath>Makefile.IAM20680-raw-ag</ExternalMakeFilePath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <ToolchainSettings>
+      <ArmGcc>
+  <armgcc.common.outputfiles.hex>True</armgcc.common.outputfiles.hex>
+  <armgcc.common.outputfiles.lss>True</armgcc.common.outputfiles.lss>
+  <armgcc.common.outputfiles.eep>True</armgcc.common.outputfiles.eep>
+  <armgcc.common.outputfiles.bin>True</armgcc.common.outputfiles.bin>
+  <armgcc.common.outputfiles.srec>True</armgcc.common.outputfiles.srec>
+  <armgcc.compiler.symbols.DefSymbols>
+    <ListValues>
+      <Value>NDEBUG</Value>
+    </ListValues>
+  </armgcc.compiler.symbols.DefSymbols>
+  <armgcc.compiler.directories.IncludePaths>
+    <ListValues>
+      <Value>%24(PackRepoDir)\atmel\SAMG_DFP\2.0.76\samg55\include</Value>
+      <Value>%24(PackRepoDir)\arm\cmsis\4.2.0\CMSIS\Include\</Value>
+    </ListValues>
+  </armgcc.compiler.directories.IncludePaths>
+  <armgcc.compiler.optimization.level>Optimize for size (-Os)</armgcc.compiler.optimization.level>
+  <armgcc.compiler.optimization.PrepareFunctionsForGarbageCollection>True</armgcc.compiler.optimization.PrepareFunctionsForGarbageCollection>
+  <armgcc.compiler.warnings.AllWarnings>True</armgcc.compiler.warnings.AllWarnings>
+  <armgcc.linker.libraries.Libraries>
+    <ListValues>
+      <Value>libm</Value>
+    </ListValues>
+  </armgcc.linker.libraries.Libraries>
+  <armgcc.linker.optimization.GarbageCollectUnusedSections>True</armgcc.linker.optimization.GarbageCollectUnusedSections>
+  <armgcc.assembler.general.IncludePaths>
+    <ListValues>
+      <Value>%24(PackRepoDir)\atmel\SAMG_DFP\2.0.76\samg55\include</Value>
+      <Value>%24(PackRepoDir)\arm\cmsis\4.2.0\CMSIS\Include\</Value>
+    </ListValues>
+  </armgcc.assembler.general.IncludePaths>
+  <armgcc.preprocessingassembler.general.IncludePaths>
+    <ListValues>
+      <Value>%24(PackRepoDir)\atmel\SAMG_DFP\2.0.76\samg55\include</Value>
+      <Value>%24(PackRepoDir)\arm\cmsis\4.2.0\CMSIS\Include\</Value>
+    </ListValues>
+  </armgcc.preprocessingassembler.general.IncludePaths>
+</ArmGcc>
+    </ToolchainSettings>
+    <UsesExternalMakeFile>True</UsesExternalMakeFile>
+    <OutputDirectory>
+    </OutputDirectory>
+    <BuildTarget>INVN_EMD_SDK_PATH=.\ SHELL=cmd all DEBUG=yes</BuildTarget>
+    <CleanTarget>INVN_EMD_SDK_PATH=.\ SHELL=cmd clean</CleanTarget>
+    <ExternalMakeFilePath>Makefile.IAM20680-raw-ag</ExternalMakeFilePath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="sources\Invn\Devices\Drivers\Iam20680\Iam20680Defs.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\Devices\Drivers\Iam20680\Iam20680Driver.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\Devices\Drivers\Iam20680\Iam20680Driver_HL.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\Devices\Drivers\Iam20680\Iam20680Driver_HL.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\Devices\Drivers\Iam20680\Iam20680ExtFunc.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\Devices\Drivers\Iam20680\Iam20680Product.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\Devices\Drivers\Iam20680\Iam20680Transport.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\EmbUtils\ErrorHelper.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\EmbUtils\ErrorHelper.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\EmbUtils\InvAssert.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\EmbUtils\InvBool.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\EmbUtils\InvScheduler.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\EmbUtils\InvScheduler.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\EmbUtils\Message.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\EmbUtils\Message.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\EmbUtils\RingBuffer.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\EmbUtils\RingByteBuffer.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\EmbUtils\RingByteBuffer.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\IDDVersion.h">
+      <SubType>compile</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="sources" />
+    <Folder Include="sources\Invn" />
+    <Folder Include="sources\Invn\Devices" />
+    <Folder Include="sources\Invn\Devices\Drivers" />
+    <Folder Include="sources\Invn\Devices\Drivers\Iam20680" />
+    <Folder Include="sources\Invn\EmbUtils" />
+  </ItemGroup>
+  <Import Project="$(AVRSTUDIO_EXE_PATH)\\Vs\\Compiler.targets" />
+</Project>

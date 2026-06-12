@@ -1,0 +1,5 @@
+Change Component Footprint: Designator=TP25 Old Footprint=TESTPOINT_SMD New Footprint=TESTPOINT_SMD_Via
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component TP7 5019
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component TP8 5019
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component TP13 5019
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component TP14 5019

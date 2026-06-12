@@ -1,0 +1,8 @@
+Change Component Footprint: Designator=C12 Old Footprint=CAPC1206P New Footprint=RESC0805(2012)_L
+Change Component Footprint: Designator=C15 Old Footprint=CAPC1206P New Footprint=RESC0805(2012)_L
+Change Component Footprint: Designator=C17 Old Footprint=CAPC1206P New Footprint=RESC0805(2012)_L
+Change Component Footprint: Designator=C18 Old Footprint=CAPC1206P New Footprint=RESC0805(2012)_L
+Added Room: Name=2008_SablierElectronique_Alim
+Added Room: Name=2008_SablierElectronique_Commande_Matrice
+Added Room: Name=2008_SablierElectronique_MosfetConnections
+Added Room: Name=2008_SablierElectronique_SCH

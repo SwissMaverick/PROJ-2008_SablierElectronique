@@ -1,0 +1,22 @@
+Cahier des charges - Projet 2008 Sablier électronique
+
+Hardware :
+- Rendre les connecteurs des matrices LED plus ergonomiques
+- Corriger le câblage autour des MOSFET
+- Corriger les branchements des multiplexeurs
+- Corriger les câblages de la centrale inertielle
+- Correction de la partie USB
+- Implémenter un module ESP32 ou module similaire pour communication Wi-Fi
+- Implémentation d'une alimentation avec un accu
+
+Firmware :
+- Communication avec un PC (USB ou port série)
+- Implémentation communication Wi-Fi (module ESP ou équivalent)
+
+Software :
+- Implémentation communication sérielle
+- Interface graphique permettant à paramétrer le sablier électronique
+- Affichage en live
+
+Mécanique :
+- Réalisation d'un boitier adapté à la nouvelle carte

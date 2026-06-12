@@ -1,0 +1,38 @@
+Added Component: Designator=X1(CON8x8(edited))
+Add component. Clean all parameters for all variants
+Added Component: Designator=X2(CON8x8(edited))
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetLED1_2 Pin=X1-1
+Added Pin To Net: NetName=NetLED2_2 Pin=X1-2
+Added Pin To Net: NetName=NetLED3_2 Pin=X1-3
+Added Pin To Net: NetName=NetLED4_2 Pin=X1-4
+Added Pin To Net: NetName=NetLED5_2 Pin=X1-5
+Added Pin To Net: NetName=NetLED6_2 Pin=X1-6
+Added Pin To Net: NetName=NetLED7_2 Pin=X1-7
+Added Pin To Net: NetName=NetLED8_2 Pin=X1-8
+Added Pin To Net: NetName=NetLED9_2 Pin=X1-9
+Added Pin To Net: NetName=NetLED10_2 Pin=X1-10
+Added Pin To Net: NetName=NetLED11_2 Pin=X1-11
+Added Pin To Net: NetName=NetLED12_2 Pin=X1-12
+Added Pin To Net: NetName=NetLED13_2 Pin=X1-13
+Added Pin To Net: NetName=NetLED14_2 Pin=X1-14
+Added Pin To Net: NetName=NetLED15_2 Pin=X1-15
+Added Pin To Net: NetName=NetLED16_2 Pin=X1-16
+Added Pin To Net: NetName=NetLED1_1 Pin=X2-1
+Added Pin To Net: NetName=NetLED17_1 Pin=X2-2
+Added Pin To Net: NetName=NetLED33_1 Pin=X2-3
+Added Pin To Net: NetName=NetLED49_1 Pin=X2-4
+Added Pin To Net: NetName=NetLED65_1 Pin=X2-5
+Added Pin To Net: NetName=NetLED81_1 Pin=X2-6
+Added Pin To Net: NetName=NetLED97_1 Pin=X2-7
+Added Pin To Net: NetName=NetLED113_1 Pin=X2-8
+Added Pin To Net: NetName=NetLED129_1 Pin=X2-9
+Added Pin To Net: NetName=NetLED145_1 Pin=X2-10
+Added Pin To Net: NetName=NetLED161_1 Pin=X2-11
+Added Pin To Net: NetName=NetLED177_1 Pin=X2-12
+Added Pin To Net: NetName=NetLED193_1 Pin=X2-13
+Added Pin To Net: NetName=NetLED209_1 Pin=X2-14
+Added Pin To Net: NetName=NetLED225_1 Pin=X2-15
+Added Pin To Net: NetName=NetLED241_1 Pin=X2-16
+Added Member To Class: ClassName=Sheet1 Member=Component X1 Anodes
+Added Member To Class: ClassName=Sheet1 Member=Component X2 Cathodes

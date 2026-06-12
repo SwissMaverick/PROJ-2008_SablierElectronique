@@ -1,0 +1,227 @@
+Removed Pin From Net: NetName=VCC Pin=C16-2
+Removed Pin From Net: NetName=VCC Pin=L1-1
+Removed Pin From Net: NetName=VCC Pin=R11-1
+Removed Pin From Net: NetName=VCC Pin=R12-1
+Removed Pin From Net: NetName=VCC Pin=TP21-1
+Change Component Footprint: Designator=TP26 Old Footprint=TESTPOINT_SMD_Via New Footprint=TESTPOINT_SMD
+Change Component Comment : Designator=L1 Old Comment=744311100 New Comment=LQM21PN1R0MCHD0
+Change Component Comment : Designator=U3 Old Comment=L3GD20H New Comment=STM-L3GD20H-LGA-16_A
+Change Component Comment : Designator=R14 Old Comment=RES New Comment=680
+Change Component Comment : Designator=R15 Old Comment=RES New Comment=680
+Change Component Comment : Designator=R16 Old Comment=RES New Comment=680
+Change Component Comment : Designator=R17 Old Comment=RES New Comment=680
+Change Component Comment : Designator=R18 Old Comment=RES New Comment=680
+Change Component Comment : Designator=R19 Old Comment=RES New Comment=680
+Change Component Comment : Designator=R20 Old Comment=RES New Comment=680
+Change Component Comment : Designator=R21 Old Comment=RES New Comment=680
+Change Component Comment : Designator=R22 Old Comment=RES New Comment=680
+Change Component Comment : Designator=R23 Old Comment=RES New Comment=680
+Change Component Comment : Designator=R24 Old Comment=RES New Comment=680
+Change Component Comment : Designator=R25 Old Comment=RES New Comment=680
+Change Component Comment : Designator=R26 Old Comment=RES New Comment=680
+Change Component Comment : Designator=R27 Old Comment=RES New Comment=680
+Change Component Comment : Designator=R28 Old Comment=RES New Comment=680
+Change Component Comment : Designator=R29 Old Comment=RES New Comment=680
+Change Component Comment : Designator=R30 Old Comment=RES New Comment=680
+Change Component Comment : Designator=R31 Old Comment=RES New Comment=680
+Change Component Comment : Designator=R32 Old Comment=RES New Comment=680
+Change Component Comment : Designator=R33 Old Comment=RES New Comment=680
+Change Component Comment : Designator=R34 Old Comment=RES New Comment=680
+Change Component Comment : Designator=R35 Old Comment=RES New Comment=680
+Change Component Comment : Designator=R36 Old Comment=RES New Comment=680
+Change Component Comment : Designator=R37 Old Comment=RES New Comment=680
+Change Component Comment : Designator=R38 Old Comment=RES New Comment=680
+Change Component Comment : Designator=R39 Old Comment=RES New Comment=680
+Change Component Comment : Designator=R40 Old Comment=RES New Comment=680
+Change Component Comment : Designator=R41 Old Comment=RES New Comment=680
+Change Component Comment : Designator=R42 Old Comment=RES New Comment=680
+Change Component Comment : Designator=R43 Old Comment=RES New Comment=680
+Change Component Comment : Designator=R44 Old Comment=RES New Comment=680
+Change Component Comment : Designator=R45 Old Comment=RES New Comment=680
+Change Component Comment : Designator=U1 Old Comment=RN4020 New Comment=MCHP-RN4020-MODULE-24
+Change Component Description : Designator=L1 Old Description=744311100 New Description=LQM21PN1R0MCHD
+Change component parameters: Designator = "D4"; Footprint = "DIOSC130X200X100-2N"; UniqueID = "\TIBJQSVY"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Arrow_Electronics-Purchase-URL"; Value = "https://snapeda.com/shop?store=Arrow+Electronics&id=809038"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Availability"; Value = "Good"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DigiKey-Purchase-URL"; Value = "https://snapeda.com/shop?store=DigiKey&id=809038"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "AVX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser-Purchase-URL"; Value = "https://snapeda.com/shop?store=Mouser&id=809038"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "SD0805S040S0R1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0805 AVX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/SD0805S040S0R1/AVX/view-part/809038/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "581-SD0805S040S0R5"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "D5"; Footprint = "FP-SOT-666-MFG"; UniqueID = "\JAHNACSJ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "511-USBLC6-2P6"; VariantName = "[No Variations]"
+Change component parameters: Designator = ""; Footprint = "CUI_CMI-1295IC-0385T"; UniqueID = "\KNHVZWQM"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "CUI Devices"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "CMI-1295IC-0385T"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "Package"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/CMI-1295IC-0385T/CUI%20Devices/view-part/4413411/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "490-CMI-1295IC-0385T"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "S4"; Footprint = "SW_FSM4JH"; UniqueID = "\GLQUKCOC"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Configuration_Pole-Throw"; Value = "Single Pole - Single Throw"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact_Current_Rating"; Value = "50 mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digi-Key_Part_Number"; Value = "450-1650-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digi-Key_Purchase_URL"; Value = "https://www.digikey.com/product-detail/en/te-connectivity-alcoswitch-switches/1825910-6/450-1650-ND/1632536?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "EU_RoHS_Compliance"; Value = "Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "1825910-6"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/1825910-6/TE%20Connectivity%20ALCOSWITCH%20Switches/view-part/424522/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "506-FSM4JH"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "TE_purchase_URL"; Value = "https://www.te.com/usa-en/product-1825910-6.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP1"; Footprint = "TESTPOINT_SMD"; UniqueID = "\UFGZHRUV"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "534-5019"; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP2"; Footprint = "TESTPOINT_SMD"; UniqueID = "\NGTJFVRX"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "534-5019"; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP3"; Footprint = "TESTPOINT_SMD"; UniqueID = "\TVUOJAIB"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "534-5019"; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP4"; Footprint = "TESTPOINT_SMD"; UniqueID = "\HXAJBQGK"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "534-5019"; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP5"; Footprint = "TESTPOINT_SMD"; UniqueID = "\RXGRYCLU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "534-5019"; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP6"; Footprint = "TESTPOINT_SMD"; UniqueID = "\OFBCPERP"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "534-5019"; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP7"; Footprint = "TESTPOINT_SMD"; UniqueID = "\IVIFNUTC"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "534-5019"; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP8"; Footprint = "TESTPOINT_SMD"; UniqueID = "\LELDILWK"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "534-5019"; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP9"; Footprint = "TESTPOINT_SMD"; UniqueID = "\WBGKCEHX"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "534-5019"; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP18"; Footprint = "TESTPOINT_SMD"; UniqueID = "\WHXXDRXM"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "534-5019"; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP19"; Footprint = "TESTPOINT_SMD"; UniqueID = "\DBZWMSFT"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "534-5019"; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP20"; Footprint = "TESTPOINT_SMD"; UniqueID = "\AUGSDDGL"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "534-5019"; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP21"; Footprint = "TESTPOINT_SMD"; UniqueID = "\MSLWTKTG"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "534-5019"; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP22"; Footprint = "TESTPOINT_SMD"; UniqueID = "\FJBWEVET"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "534-5019"; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP23"; Footprint = "TESTPOINT_SMD"; UniqueID = "\RJVSXYLO"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "534-5019"; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP24"; Footprint = "TESTPOINT_SMD"; UniqueID = "\LCLMMGAW"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "534-5019"; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP25"; Footprint = "TESTPOINT_SMD"; UniqueID = "\PHQXOLCZ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "534-5019"; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP26"; Footprint = "TESTPOINT_SMD"; UniqueID = "\KSMTLBPA"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "534-5019"; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP27"; Footprint = "TESTPOINT_SMD"; UniqueID = "\YYOJQSCI"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "534-5019"; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP28"; Footprint = "TESTPOINT_SMD"; UniqueID = "\HBHTBPFE"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "534-5019"; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP29"; Footprint = "TESTPOINT_SMD"; UniqueID = "\GZCWLFSD"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "534-5019"; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP30"; Footprint = "TESTPOINT_SMD"; UniqueID = "\DTAMNXNS"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "534-5019"; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP31"; Footprint = "TESTPOINT_SMD"; UniqueID = "\RVAJYGEB"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "534-5019"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U1"; Footprint = "MCHP-MODULE-24_V"; UniqueID = "\TTFREZNT"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "579-RN4020-V/RM120"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U2"; Footprint = "TQFP-PT100_N"; UniqueID = "\RTEDEUKH"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "579-PIC32MX795F512"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U3"; Footprint = "STM-LGA-16"; UniqueID = "\DVKBQCRM"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "2762758"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U4"; Footprint = "SOT563"; UniqueID = "\MIINAOKG"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Arrow_Electronics-Purchase-URL"; Value = "https://snapeda.com/shop?store=Arrow+Electronics&id=3229753"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Availability"; Value = "Good"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser-Purchase-URL"; Value = "https://snapeda.com/shop?store=Mouser&id=3229753"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "TLV62585PDRLR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "SOT-5X3-6 Texas Instruments"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/TLV62585PDRLR/Texas%20Instruments/view-part/3229753/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "595-TLV62585PDRLR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Texas_Instruments-Purchase-URL"; Value = "https://snapeda.com/shop?store=Texas+Instruments&id=3229753"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "U5"; Footprint = "SOIC24"; UniqueID = "\LQNSFBDM"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "595-CD74HC4067M"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U6"; Footprint = "SOIC24"; UniqueID = "\DHYQNLBG"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "595-CD74HC4067M"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L1"; Footprint = "RESC0805(2012)_L"; UniqueID = "\TSNSZUOE"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "LQM21PN1R0MCHD"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "LQM21PN1R0MCHD"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "81-LQM21PN1R0MCHD"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1uH"; VariantName = "[No Variations]"
+Change Net Name : Old Net Name=NetD4_A New Net Name=Net_N
+Added Pin To Net: NetName=NetC16_2 Pin=C16-2
+Added Pin To Net: NetName=NetC16_2 Pin=L1-1
+Added Pin To Net: NetName=NetC16_2 Pin=R11-1
+Added Pin To Net: NetName=NetC16_2 Pin=R12-1
+Added Pin To Net: NetName=NetC16_2 Pin=TP21-1
+Added Net: Name=NetC16_2
+Added Member To Class: ClassName=Power Member=Wire NetC16_2

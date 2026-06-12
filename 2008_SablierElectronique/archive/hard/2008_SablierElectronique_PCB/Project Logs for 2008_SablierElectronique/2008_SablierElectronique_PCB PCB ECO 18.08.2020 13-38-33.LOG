@@ -1,0 +1,5 @@
+Change Component Footprint: Designator=U4 Old Footprint=SOT50P160X60-6N New Footprint=SOT563
+Added Room: Name=2008_SablierElectronique_Alim
+Added Room: Name=2008_SablierElectronique_Commande_Matrice
+Added Room: Name=2008_SablierElectronique_MosfetConnections
+Added Room: Name=2008_SablierElectronique_SCH

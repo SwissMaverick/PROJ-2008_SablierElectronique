@@ -1,0 +1,19 @@
+Added Component: Designator=U4(SOT50P160X60-6N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Arrow_Electronics-Purchase-URL"; Value = "https://snapeda.com/shop?store=Arrow+Electronics&id=3229753"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Availability"; Value = "Good"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser-Purchase-URL"; Value = "https://snapeda.com/shop?store=Mouser&id=3229753"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "TLV62585PDRLR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOT-5X3-6 Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/TLV62585PDRLR/Texas%20Instruments/view-part/3229753/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Texas_Instruments-Purchase-URL"; Value = "https://snapeda.com/shop?store=Texas+Instruments&id=3229753"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=0 Pin=U4-1
+Added Pin To Net: NetName=NetL1_2 Pin=U4-2
+Added Pin To Net: NetName=+5 Pin=U4-3
+Added Pin To Net: NetName=+5 Pin=U4-4
+Added Pin To Net: NetName=+5 Pin=U4-5
+Added Pin To Net: NetName=+5 Pin=U4-6
+Added Member To Class: ClassName=2008_SablierElectronique_Alim Member=Component U4 TLV62585PDRLR

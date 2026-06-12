@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:nsd="https://structorizer.fisch.lu" version="3.30-10" preRepeat="until " postFor="to" preReturn="return" postForIn="in" preWhile="while " output="OUTPUT" input="INPUT" preFor="for" preExit="exit" preLeave="leave" ignoreCase="true" preThrow="throw" preForIn="foreach" stepFor="by" author="carlo" created="2020-09-13" changedby="carlo" changed="2020-09-13" origin="Structorizer 3.30-10" text="&#34;DropParticule(Matrice)&#34;" comment="" color="ffffff" type="program" style="nice">
+	<children>
+		<case text="&#34;(Sens)&#34;,&#34;HautBAs&#34;,&#34;BasHaut&#34;,&#34;GaucheDroite&#34;,&#34;DroiteGauche&#34;" comment="&#34;&#34;" color="ff8000" disabled="0">
+			<qCase>
+				<alternative text="&#34;(case d'interception cible est libre?)&#34;" comment="" color="ffff80" disabled="0">
+					<qTrue>
+						<alternative text="&#34;(La case à vider est remplie?)&#34;" comment="" color="ffff80" disabled="0">
+							<qTrue>
+								<instruction text="&#34;Vider la case expeditrice&#34;" comment="" color="ffffff" rotated="0" disabled="0"></instruction>
+								<instruction text="&#34;remplir la case destinataire&#34;" comment="" color="ffffff" rotated="0" disabled="0"></instruction>
+							</qTrue>
+							<qFalse color="ffffff">
+							</qFalse>
+						</alternative>
+					</qTrue>
+					<qFalse color="ffffff">
+					</qFalse>
+				</alternative>
+			</qCase>
+			<qCase>
+				<alternative text="&#34;(case d'interception cible est libre?)&#34;" comment="" color="ffff80" disabled="0">
+					<qTrue>
+						<alternative text="&#34;(La case à vider est remplie?)&#34;" comment="" color="ffff80" disabled="0">
+							<qTrue>
+								<instruction text="&#34;Vider la case expeditrice&#34;" comment="" color="ffffff" rotated="0" disabled="0"></instruction>
+								<instruction text="&#34;remplir la case destinataire&#34;" comment="" color="ffffff" rotated="0" disabled="0"></instruction>
+							</qTrue>
+							<qFalse color="ffffff">
+							</qFalse>
+						</alternative>
+					</qTrue>
+					<qFalse color="ffffff">
+					</qFalse>
+				</alternative>
+			</qCase>
+			<qCase>
+				<alternative text="&#34;(L'un des côtes de l'interception est libre?)&#34;" comment="&#34;&#34;" color="ffff80" disabled="0">
+					<qTrue>
+						<alternative text="&#34;(La case à vider est remplie?)&#34;" comment="" color="ffff80" disabled="0">
+							<qTrue>
+								<instruction text="&#34;Vider la case expeditrice&#34;" comment="" color="ffffff" rotated="0" disabled="0"></instruction>
+								<instruction text="&#34;remplir la case destinataire&#34;" comment="" color="ffffff" rotated="0" disabled="0"></instruction>
+							</qTrue>
+							<qFalse color="ffffff">
+							</qFalse>
+						</alternative>
+					</qTrue>
+					<qFalse color="ffffff">
+					</qFalse>
+				</alternative>
+			</qCase>
+			<qCase>
+				<alternative text="&#34;(L'un des côtes de l'interception est libre?)&#34;" comment="" color="ffff80" disabled="0">
+					<qTrue>
+						<alternative text="&#34;(La case à vider est remplie?)&#34;" comment="" color="ffff80" disabled="0">
+							<qTrue>
+								<instruction text="&#34;Vider la case expeditrice&#34;" comment="" color="ffffff" rotated="0" disabled="0"></instruction>
+								<instruction text="&#34;remplir la case destinataire&#34;" comment="" color="ffffff" rotated="0" disabled="0"></instruction>
+							</qTrue>
+							<qFalse color="ffffff">
+							</qFalse>
+						</alternative>
+					</qTrue>
+					<qFalse color="ffffff">
+					</qFalse>
+				</alternative>
+			</qCase>
+		</case>
+	</children>
+</root>

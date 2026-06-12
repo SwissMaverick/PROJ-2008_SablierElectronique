@@ -1,0 +1,20 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: 2008_SablierElectronique_PCB.GBR   26.08.2020  15:31:30
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.gbr                Top Layer                               
+.gbr                Bottom Layer                            
+.gbr                Bottom Pad Master                       
+.gbr                Top Pad Master                          
+.gbr                Bottom Solder                           
+.gbr                Top Overlay                             
+.gbr                Top Solder                              
+.gbr                Bottom Overlay                          
+.gbr                Board Outline (ES)                      
+.gbr                Top Dims                                
+.gbr                Profile                                 
+------------------------------------------------------------------------------------------

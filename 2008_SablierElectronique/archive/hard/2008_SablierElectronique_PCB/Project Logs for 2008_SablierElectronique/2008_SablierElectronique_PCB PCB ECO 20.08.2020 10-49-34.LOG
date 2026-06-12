@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=GND Pin=R4-2
+Removed Pin From Net: NetName=GND Pin=R5-2
+Removed Pin From Net: NetName=NetR6_1 Pin=S1-1
+Removed Pin From Net: NetName=NetR6_1 Pin=U2-7
+Change Component Designator: OldDesignator=R7 NewDesignator=R4
+Change Component Designator: OldDesignator=R8 NewDesignator=R5
+Added Component: Designator=R7(RESC0805(2012)_L)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R8(RESC0805(2012)_L)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=R7-2
+Added Pin To Net: NetName=GND Pin=R8-2
+Added Pin To Net: NetName=NetR6_1 Pin=S3-1
+Added Pin To Net: NetName=NetR6_1 Pin=U2-96
+Change Net Name : Old Net Name=NetR7_1 New Net Name=NetR4_1
+Added Pin To Net: NetName=NetR7_1 Pin=R7-1
+Added Pin To Net: NetName=NetR7_1 Pin=S2-1
+Added Pin To Net: NetName=NetR7_1 Pin=U2-97
+Added Net: Name=NetR7_1
+Added Pin To Net: NetName=NetR8_1 Pin=R8-1
+Added Pin To Net: NetName=NetR8_1 Pin=S1-1
+Added Pin To Net: NetName=NetR8_1 Pin=U2-95
+Added Net: Name=NetR8_1

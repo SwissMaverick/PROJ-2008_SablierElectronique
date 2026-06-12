@@ -1,0 +1,4 @@
+Change Class Name : Old Net Name=Sheet1 New Net Name=LED_Matrix16x16
+Added Member To Class: ClassName=LED_Matrix16x16 Member=Component LED1 KPT-2012SRC-PRV
+Added Member To Class: ClassName=LED_Matrix16x16 Member=Component X2 Cathodes
+Added Room: Name=LED_Matrix16x16

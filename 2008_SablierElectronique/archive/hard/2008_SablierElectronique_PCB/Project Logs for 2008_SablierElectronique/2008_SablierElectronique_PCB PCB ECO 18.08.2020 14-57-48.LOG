@@ -1,0 +1,22 @@
+Removed Pin From Net: NetName=+5 Pin=C4-1
+Removed Pin From Net: NetName=+5 Pin=C15-2
+Removed Pin From Net: NetName=+5 Pin=U4-3
+Removed Pin From Net: NetName=+5 Pin=U4-4
+Removed Pin From Net: NetName=+5 Pin=X2-1
+Removed Member From Class: ClassName=2008_SablierElectronique_SCH Member=C4
+Added Component: Designator=C?(RESC0805(2012)_L)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=+5 Pin=C?-1
+Change Net Name : Old Net Name=+5 New Net Name=GND
+Added Pin To Net: NetName=+5 Pin=C15-2
+Added Pin To Net: NetName=+5 Pin=C?-2
+Added Pin To Net: NetName=+5 Pin=D2-5
+Added Pin To Net: NetName=+5 Pin=U4-3
+Added Pin To Net: NetName=+5 Pin=U4-4
+Added Pin To Net: NetName=+5 Pin=X2-1
+Added Net: Name=+5
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component C? 100nF
+Added Room: Name=2008_SablierElectronique_Alim
+Added Room: Name=2008_SablierElectronique_Commande_Matrice
+Added Room: Name=2008_SablierElectronique_MosfetConnections
+Added Room: Name=2008_SablierElectronique_SCH

@@ -1,0 +1,42 @@
+Change Component Footprint: Designator=TP10 Old Footprint=TESTPOINT_SMD New Footprint=TESTPOINT_SMD_Via
+Change Component Footprint: Designator=TP11 Old Footprint=TESTPOINT_SMD New Footprint=TESTPOINT_SMD_Via
+Change Component Footprint: Designator=TP12 Old Footprint=TESTPOINT_SMD New Footprint=TESTPOINT_SMD_Via
+Change Component Footprint: Designator=TP15 Old Footprint=TESTPOINT_SMD New Footprint=TESTPOINT_SMD_Via
+Change Component Footprint: Designator=TP16 Old Footprint=TESTPOINT_SMD New Footprint=TESTPOINT_SMD_Via
+Change Component Footprint: Designator=TP17 Old Footprint=TESTPOINT_SMD New Footprint=TESTPOINT_SMD_Via
+Change Component Designator: OldDesignator=TP13 NewDesignator=TP7
+Change Component Designator: OldDesignator=TP14 NewDesignator=TP8
+Added Component: Designator=TP1(TESTPOINT_SMD)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP2(TESTPOINT_SMD)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP3(TESTPOINT_SMD)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP4(TESTPOINT_SMD)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP13(TESTPOINT_SMD_Via)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP14(TESTPOINT_SMD_Via)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetTP1_1 Pin=TP1-1
+Added Pin To Net: NetName=NetTP2_1 Pin=TP2-1
+Added Pin To Net: NetName=NetTP3_1 Pin=TP3-1
+Added Pin To Net: NetName=NetTP4_1 Pin=TP4-1
+Change Net Name : Old Net Name=NetTP13_1 New Net Name=NetTP7_1
+Change Net Name : Old Net Name=NetTP14_1 New Net Name=NetTP8_1
+Added Pin To Net: NetName=NetTP13_1 Pin=TP13-1
+Added Pin To Net: NetName=NetTP13_1 Pin=U1-22
+Added Pin To Net: NetName=NetTP13_1 Pin=U2-50
+Added Net: Name=NetTP13_1
+Added Pin To Net: NetName=NetTP14_1 Pin=TP14-1
+Added Pin To Net: NetName=NetTP14_1 Pin=U1-21
+Added Pin To Net: NetName=NetTP14_1 Pin=U2-49
+Added Net: Name=NetTP14_1
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component TP1 5019
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component TP2 5019
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component TP3 5019
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component TP4 5019
+Added Room: Name=2008_SablierElectronique_Alim
+Added Room: Name=2008_SablierElectronique_Commande_Matrice
+Added Room: Name=2008_SablierElectronique_MosfetConnections
+Added Room: Name=2008_SablierElectronique_SCH

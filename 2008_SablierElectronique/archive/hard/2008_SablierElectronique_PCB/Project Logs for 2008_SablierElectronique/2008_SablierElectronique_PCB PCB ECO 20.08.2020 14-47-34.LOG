@@ -1,0 +1,161 @@
+Added Component: Designator=TP5(TESTPOINT_SMD)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP6(TESTPOINT_SMD)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP7(TESTPOINT_SMD)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP8(TESTPOINT_SMD)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP9(TESTPOINT_SMD)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP10(TESTPOINT_SMD)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP11(TESTPOINT_SMD)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP12(TESTPOINT_SMD)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP13(TESTPOINT_SMD)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP14(TESTPOINT_SMD)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP15(TESTPOINT_SMD)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP16(TESTPOINT_SMD)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP17(TESTPOINT_SMD)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP18(TESTPOINT_SMD)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP19(TESTPOINT_SMD)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP20(TESTPOINT_SMD)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP21(TESTPOINT_SMD)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP22(TESTPOINT_SMD)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP23(TESTPOINT_SMD)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP24(TESTPOINT_SMD)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP25(TESTPOINT_SMD)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP26(TESTPOINT_SMD)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP27(TESTPOINT_SMD)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP28(TESTPOINT_SMD)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP29(TESTPOINT_SMD)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP30(TESTPOINT_SMD)
+Add component. Clean all parameters for all variants
+Added Component: Designator=TP31(TESTPOINT_SMD)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetQ1_1 Pin=TP9-1
+Added Pin To Net: NetName=NetR4_1 Pin=TP18-1
+Added Pin To Net: NetName=NetD5_1 Pin=TP19-1
+Added Pin To Net: NetName=NetD5_3 Pin=TP20-1
+Added Pin To Net: NetName=VCC Pin=TP21-1
+Added Pin To Net: NetName=+5 Pin=TP22-1
+Added Pin To Net: NetName=L1 Pin=TP23-1
+Added Pin To Net: NetName=L2 Pin=TP24-1
+Added Pin To Net: NetName=L3 Pin=TP25-1
+Added Pin To Net: NetName=L4 Pin=TP26-1
+Added Pin To Net: NetName=Config IN/OUT Pin=TP27-1
+Added Pin To Net: NetName=LB4 Pin=TP28-1
+Added Pin To Net: NetName=LB3 Pin=TP29-1
+Added Pin To Net: NetName=LB2 Pin=TP30-1
+Added Pin To Net: NetName=LB1 Pin=TP31-1
+Added Pin To Net: NetName=NetTP1_1 Pin=U2-10
+Added Pin To Net: NetName=NetTP1_1 Pin=U3-2
+Added Net: Name=NetTP1_1
+Added Pin To Net: NetName=NetTP2_1 Pin=U2-12
+Added Pin To Net: NetName=NetTP2_1 Pin=U3-3
+Added Net: Name=NetTP2_1
+Added Pin To Net: NetName=NetTP3_1 Pin=U2-11
+Added Pin To Net: NetName=NetTP3_1 Pin=U3-4
+Added Net: Name=NetTP3_1
+Added Pin To Net: NetName=NetTP4_1 Pin=U2-93
+Added Pin To Net: NetName=NetTP4_1 Pin=U3-5
+Added Net: Name=NetTP4_1
+Added Pin To Net: NetName=NetTP5_1 Pin=TP5-1
+Added Pin To Net: NetName=NetTP5_1 Pin=U1-6
+Added Pin To Net: NetName=NetTP5_1 Pin=U2-53
+Added Net: Name=NetTP5_1
+Added Pin To Net: NetName=NetTP6_1 Pin=TP6-1
+Added Pin To Net: NetName=NetTP6_1 Pin=U1-5
+Added Pin To Net: NetName=NetTP6_1 Pin=U2-52
+Added Net: Name=NetTP6_1
+Added Pin To Net: NetName=NetTP7_1 Pin=TP7-1
+Added Pin To Net: NetName=NetTP7_1 Pin=U1-22
+Added Pin To Net: NetName=NetTP7_1 Pin=U2-50
+Added Net: Name=NetTP7_1
+Added Pin To Net: NetName=NetTP8_1 Pin=TP8-1
+Added Pin To Net: NetName=NetTP8_1 Pin=U1-21
+Added Pin To Net: NetName=NetTP8_1 Pin=U2-49
+Added Net: Name=NetTP8_1
+Added Pin To Net: NetName=NetTP10_1 Pin=TP10-1
+Added Pin To Net: NetName=NetTP10_1 Pin=U1-7
+Added Pin To Net: NetName=NetTP10_1 Pin=U2-67
+Added Net: Name=NetTP10_1
+Added Pin To Net: NetName=NetTP11_1 Pin=TP11-1
+Added Pin To Net: NetName=NetTP11_1 Pin=U1-8
+Added Pin To Net: NetName=NetTP11_1 Pin=U2-66
+Added Net: Name=NetTP11_1
+Added Pin To Net: NetName=NetTP12_1 Pin=TP12-1
+Added Pin To Net: NetName=NetTP12_1 Pin=U1-15
+Added Pin To Net: NetName=NetTP12_1 Pin=U2-99
+Added Net: Name=NetTP12_1
+Added Pin To Net: NetName=NetTP13_1 Pin=TP13-1
+Added Pin To Net: NetName=NetTP13_1 Pin=U1-14
+Added Pin To Net: NetName=NetTP13_1 Pin=U2-3
+Added Net: Name=NetTP13_1
+Added Pin To Net: NetName=NetTP14_1 Pin=TP14-1
+Added Pin To Net: NetName=NetTP14_1 Pin=U1-18
+Added Pin To Net: NetName=NetTP14_1 Pin=U2-4
+Added Net: Name=NetTP14_1
+Added Pin To Net: NetName=NetTP15_1 Pin=TP15-1
+Added Pin To Net: NetName=NetTP15_1 Pin=U2-5
+Added Pin To Net: NetName=NetTP15_1 Pin=U3-8
+Added Net: Name=NetTP15_1
+Added Pin To Net: NetName=NetTP16_1 Pin=TP16-1
+Added Pin To Net: NetName=NetTP16_1 Pin=U2-18
+Added Pin To Net: NetName=NetTP16_1 Pin=U3-7
+Added Net: Name=NetTP16_1
+Added Pin To Net: NetName=NetTP17_1 Pin=TP17-1
+Added Pin To Net: NetName=NetTP17_1 Pin=U2-19
+Added Pin To Net: NetName=NetTP17_1 Pin=U3-6
+Added Net: Name=NetTP17_1
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component S4 FSM4JH
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component TP5 5019
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component TP6 5019
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component TP7 5019
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component TP8 5019
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component TP9 5019
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component TP10 5019
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component TP11 5019
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component TP12 5019
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component TP13 5019
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component TP14 5019
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component TP15 5019
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component TP16 5019
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component TP17 5019
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component TP18 5019
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component TP19 5019
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component TP20 5019
+Added Member To Class: ClassName=2008_SablierElectronique_Alim Member=Component TP21 5019
+Added Member To Class: ClassName=2008_SablierElectronique_Alim Member=Component TP22 5019
+Added Member To Class: ClassName=2008_SablierElectronique_Commande_Matrice Member=Component TP23 5019
+Added Member To Class: ClassName=2008_SablierElectronique_Commande_Matrice Member=Component TP24 5019
+Added Member To Class: ClassName=2008_SablierElectronique_Commande_Matrice Member=Component TP25 5019
+Added Member To Class: ClassName=2008_SablierElectronique_Commande_Matrice Member=Component TP26 5019
+Added Member To Class: ClassName=2008_SablierElectronique_Commande_Matrice Member=Component TP27 5019
+Added Member To Class: ClassName=2008_SablierElectronique_Commande_Matrice Member=Component TP28 5019
+Added Member To Class: ClassName=2008_SablierElectronique_Commande_Matrice Member=Component TP29 5019
+Added Member To Class: ClassName=2008_SablierElectronique_Commande_Matrice Member=Component TP30 5019
+Added Member To Class: ClassName=2008_SablierElectronique_Commande_Matrice Member=Component TP31 5019
+Added Room: Name=2008_SablierElectronique_Alim
+Added Room: Name=2008_SablierElectronique_Commande_Matrice
+Added Room: Name=2008_SablierElectronique_MosfetConnections
+Added Room: Name=2008_SablierElectronique_SCH

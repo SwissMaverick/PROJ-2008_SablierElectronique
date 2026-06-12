@@ -1,0 +1,2 @@
+"C:\Program Files (x86)\Atmel\Studio\7.0\atbackend\atprogram" -d atsamg55j19 -i SWD erase
+"C:\Program Files (x86)\Atmel\Studio\7.0\atbackend\atprogram" -d atsamg55j19 -i SWD program -f ..\release\IAM20680\EMD-App-IAM20680-raw-ag.elf

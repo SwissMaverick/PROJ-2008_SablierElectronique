@@ -1,0 +1,8 @@
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component S1 Bouton HAUT
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component S2 Bouton BAS
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component S3 Bouton H/M/S
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component X1 USB
+Added Room: Name=2008_SablierElectronique_Alim
+Added Room: Name=2008_SablierElectronique_Commande_Matrice
+Added Room: Name=2008_SablierElectronique_MosfetConnections
+Added Room: Name=2008_SablierElectronique_SCH

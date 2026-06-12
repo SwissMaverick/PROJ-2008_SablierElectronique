@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=L4 Pin=U2-22
+Removed Pin From Net: NetName=L3 Pin=U2-23
+Removed Pin From Net: NetName=L2 Pin=U2-24
+Removed Pin From Net: NetName=L1 Pin=U2-25
+Removed Member From Class: ClassName=2008_SablierElectronique_Alim Member=X4
+Removed Member From Class: ClassName=2008_SablierElectronique_SCH Member=X4
+Added Pin To Net: NetName=L3 Pin=U2-22
+Added Pin To Net: NetName=L4 Pin=U2-23
+Added Pin To Net: NetName=L1 Pin=U2-24
+Added Pin To Net: NetName=L2 Pin=U2-25
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component D1 KPT-2012SRC-PRV
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component D2 KPT-2012SRC-PRV
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component X1 ICD
+Added Member To Class: ClassName=2008_SablierElectronique_Alim Member=Component X3 Alimentation
+Added Member To Class: ClassName=2008_SablierElectronique_MosfetConnections Member=Component X6 Colonnes haut

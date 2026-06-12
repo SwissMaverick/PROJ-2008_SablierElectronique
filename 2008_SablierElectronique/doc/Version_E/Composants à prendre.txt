@@ -1,0 +1,6 @@
+Microcontrôleur : PIC32MX
+
+Module WiFi : ESP32
+
+USB : USBLC6-2 ESD protection
+

@@ -1,0 +1,76 @@
+Removed Pin From Net: NetName=NetQ13_1 Pin=U5-2
+Removed Pin From Net: NetName=NetQ5_1 Pin=U5-3
+Removed Pin From Net: NetName=NetQ12_1 Pin=U5-4
+Removed Pin From Net: NetName=NetQ4_1 Pin=U5-5
+Removed Pin From Net: NetName=NetQ11_1 Pin=U5-6
+Removed Pin From Net: NetName=NetQ3_1 Pin=U5-7
+Removed Pin From Net: NetName=NetQ10_1 Pin=U5-8
+Removed Pin From Net: NetName=NetQ9_1 Pin=U5-17
+Removed Pin From Net: NetName=NetQ16_1 Pin=U5-18
+Removed Pin From Net: NetName=NetQ8_1 Pin=U5-19
+Removed Pin From Net: NetName=NetQ15_1 Pin=U5-20
+Removed Pin From Net: NetName=NetQ7_1 Pin=U5-21
+Removed Pin From Net: NetName=NetQ14_1 Pin=U5-22
+Removed Pin From Net: NetName=NetQ6_1 Pin=U5-23
+Removed Pin From Net: NetName=NetQ29_1 Pin=U6-2
+Removed Pin From Net: NetName=NetQ21_1 Pin=U6-3
+Removed Pin From Net: NetName=NetQ28_1 Pin=U6-4
+Removed Pin From Net: NetName=NetQ20_1 Pin=U6-5
+Removed Pin From Net: NetName=NetQ27_1 Pin=U6-6
+Removed Pin From Net: NetName=NetQ19_1 Pin=U6-7
+Removed Pin From Net: NetName=NetQ26_1 Pin=U6-8
+Removed Pin From Net: NetName=NetQ25_1 Pin=U6-17
+Removed Pin From Net: NetName=NetQ32_1 Pin=U6-18
+Removed Pin From Net: NetName=NetQ24_1 Pin=U6-19
+Removed Pin From Net: NetName=NetQ31_1 Pin=U6-20
+Removed Pin From Net: NetName=NetQ23_1 Pin=U6-21
+Removed Pin From Net: NetName=NetQ30_1 Pin=U6-22
+Removed Pin From Net: NetName=NetQ22_1 Pin=U6-23
+Added Component: Designator=C17(RESC0805(2012)_L)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R4(RESC0805(2012)_L)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R5(RESC0805(2012)_L)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=C17-1
+Added Pin To Net: NetName=VCC Pin=C17-2
+Added Pin To Net: NetName=NetR4_1 Pin=R4-1
+Added Pin To Net: NetName=GND Pin=R4-2
+Added Pin To Net: NetName=NetR5_1 Pin=R5-1
+Added Pin To Net: NetName=GND Pin=R5-2
+Added Pin To Net: NetName=NetQ9_1 Pin=U5-2
+Added Pin To Net: NetName=NetQ8_1 Pin=U5-3
+Added Pin To Net: NetName=NetQ7_1 Pin=U5-4
+Added Pin To Net: NetName=NetQ6_1 Pin=U5-5
+Added Pin To Net: NetName=NetQ5_1 Pin=U5-6
+Added Pin To Net: NetName=NetQ4_1 Pin=U5-7
+Added Pin To Net: NetName=NetQ3_1 Pin=U5-8
+Added Pin To Net: NetName=NetQ16_1 Pin=U5-17
+Added Pin To Net: NetName=NetQ15_1 Pin=U5-18
+Added Pin To Net: NetName=NetQ14_1 Pin=U5-19
+Added Pin To Net: NetName=NetQ13_1 Pin=U5-20
+Added Pin To Net: NetName=NetQ12_1 Pin=U5-21
+Added Pin To Net: NetName=NetQ11_1 Pin=U5-22
+Added Pin To Net: NetName=NetQ10_1 Pin=U5-23
+Added Pin To Net: NetName=NetQ25_1 Pin=U6-2
+Added Pin To Net: NetName=NetQ24_1 Pin=U6-3
+Added Pin To Net: NetName=NetQ23_1 Pin=U6-4
+Added Pin To Net: NetName=NetQ22_1 Pin=U6-5
+Added Pin To Net: NetName=NetQ21_1 Pin=U6-6
+Added Pin To Net: NetName=NetQ20_1 Pin=U6-7
+Added Pin To Net: NetName=NetQ19_1 Pin=U6-8
+Added Pin To Net: NetName=NetQ32_1 Pin=U6-17
+Added Pin To Net: NetName=NetQ31_1 Pin=U6-18
+Added Pin To Net: NetName=NetQ30_1 Pin=U6-19
+Added Pin To Net: NetName=NetQ29_1 Pin=U6-20
+Added Pin To Net: NetName=NetQ28_1 Pin=U6-21
+Added Pin To Net: NetName=NetQ27_1 Pin=U6-22
+Added Pin To Net: NetName=NetQ26_1 Pin=U6-23
+Added Member To Class: ClassName=2008_SablierElectronique_Commande_Matrice Member=Component C17 100nF
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component R4 10k
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component R5 10k
+Added Member To Class: ClassName=2008_SablierElectronique_SCH Member=Component X1 USB
+Added Room: Name=2008_SablierElectronique_Alim
+Added Room: Name=2008_SablierElectronique_Commande_Matrice
+Added Room: Name=2008_SablierElectronique_MosfetConnections
+Added Room: Name=2008_SablierElectronique_SCH

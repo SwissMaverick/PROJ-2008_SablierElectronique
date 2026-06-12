@@ -1,0 +1,12 @@
+Recherche problème :
+
+En programmant j'ai remarqué que le PIC n'entrait même pas dans le app_Initialize. Je suis arrivé à cette conclusion en mettant une patte non utilisée à 1 dans l'init de l'app. Cette patte restant à 0, j'ai donc émis cette hypothèse. J'ai donc essayé de lancer le programme en mode Debug et l'erreur suivante est apparue :
+Fatal error: 0x102
+The target device is not ready for debugging. Please check your configuration bit settings and program the device before proceeding. The most common causes for this failure are oscillator and/or PGC/PGD settings.
+
+- Vérif des starts de timers
+- Vérif des timers
+- Vérif des ISR
+- Vérif de la machine d'états
+- Vérif des ports de prog
+- J'ai envie de me pendre

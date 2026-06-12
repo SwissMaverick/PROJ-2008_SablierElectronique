@@ -1,0 +1,9 @@
+Timers
+ 
+Timer 1 : 5 ms pour l'app + debounce
+
+Timer 2 : 819'200MHz pour l'envoi du SPI
+
+Timer 4 : 2 kHz pour le scan des lignes
+
+OC1 : Basé sur timer 2 pour le clock des TLC
