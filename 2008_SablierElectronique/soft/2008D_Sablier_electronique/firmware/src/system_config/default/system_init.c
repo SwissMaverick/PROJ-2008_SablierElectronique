@@ -71,7 +71,7 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 #pragma config FSOSCEN =    ON
 #pragma config IESO =       ON
 #pragma config POSCMOD =    OFF
-#pragma config OSCIOFNC =   ON
+#pragma config OSCIOFNC =   OFF
 #pragma config FPBDIV =     DIV_1
 #pragma config FCKSM =      CSECMD
 #pragma config WDTPS =      PS1048576
