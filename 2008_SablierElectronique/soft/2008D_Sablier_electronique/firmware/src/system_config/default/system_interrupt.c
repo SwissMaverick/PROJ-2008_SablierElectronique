@@ -144,35 +144,14 @@ void __ISR(_TIMER_3_VECTOR, ipl2AUTO) IntHandlerDrvTmrInstance2(void)
 void __ISR(_TIMER_4_VECTOR, ipl1AUTO) IntHandlerDrvTmrInstance3(void)
 {
     PLIB_INT_SourceFlagClear(INT_ID_0,INT_SOURCE_TIMER_4);
-    
 
-    //eteindre matrice A
-//        LATD = 0xFFFF;  //ttes les colonnes OFF (commandes des MOS P matrice A à 1)
+    // Désactiver les DEMUX pendant la transition
+    // Logique des entrées inversées car actif à l'état BAS
+    AMatriceONOn();
+    BMatriceONOn();
 
-
-    //eteindre matrice B
-    //ttes les colonnes OFF (commandes des MOS P matrice B à 1)
-//        LATA = (PORTA & 0xFF00) | 0x00FF;    
-//        LATB = (PORTB & 0x00FF) | 0xFF00;
-    // Il faudra dire au driver_B d'eteindre toutes les colonnes
-    // ...
-
-    //Sert au demultiplexage
-//        LATB = (PORTB & 0xFFF0) | ((((LCompteur & 0b0001) << 1) | ((LCompteur & 0b0010) >> 1) | ((LCompteur & 0b0100) << 1) | ((LCompteur & 0b1000) >> 1)));
-//        LATC = (PORTC & 0x0FFF) | (((LCompteur & 0b0001) | ((LCompteur & 0b0010) << 2) | ((LCompteur & 0b0100) >> 1) | ((LCompteur & 0b1000) >> 1)) << 12);
-    // On controle une suite sur les bits 10, 11, 12, 13
-    // Pour les lignes de la matrice A
-    //LATB = (LATB & 0xFFC3) | ((LCompteur & 0b0001) << 5) | ((LCompteur & 0b0010) << 3) | ((LCompteur & 0b0100) << 1) | ((LCompteur & 0b1000) >> 1);
-    
-
-    // On controle une suite sur les bits 4, 5, 6, 7
-    // Pour les lignes de la matrice B
-    //LATB = (LATB & 0xF0FF) | ((LCompteur & 0x0F) << 8);
-
-    /*
     // Matrice A : AL1=S0, AL2=S1, AL3=S2, AL4=S3
-    // Matrice A
-    if ((LCompteur & 0b0001) == 1) // S0
+    if (LCompteur & 0b0001) // S0
     {
         AL1On();
     }
@@ -181,7 +160,7 @@ void __ISR(_TIMER_4_VECTOR, ipl1AUTO) IntHandlerDrvTmrInstance3(void)
         AL1Off();
     }
 
-    if ((LCompteur & 0b0010) == 1) // S1
+    if (LCompteur & 0b0010) // S1
     {
         AL2On();
     }
@@ -190,7 +169,7 @@ void __ISR(_TIMER_4_VECTOR, ipl1AUTO) IntHandlerDrvTmrInstance3(void)
         AL2Off();
     }
 
-    if ((LCompteur & 0b0100) == 1) // S2
+    if (LCompteur & 0b0100) // S2
     {
         AL3On();
     }
@@ -199,7 +178,7 @@ void __ISR(_TIMER_4_VECTOR, ipl1AUTO) IntHandlerDrvTmrInstance3(void)
         AL3Off();
     }
 
-    if ((LCompteur & 0b1000) == 1) // S3
+    if (LCompteur & 0b1000) // S3
     {
         AL4On();
     }
@@ -209,7 +188,7 @@ void __ISR(_TIMER_4_VECTOR, ipl1AUTO) IntHandlerDrvTmrInstance3(void)
     }
 
     // Matrice B
-    if ((LCompteur & 0b0001) == 1) // S0
+    if (LCompteur & 0b0001) // S0
     {
         BL1On();
     }
@@ -218,7 +197,7 @@ void __ISR(_TIMER_4_VECTOR, ipl1AUTO) IntHandlerDrvTmrInstance3(void)
         BL1Off();
     }
 
-    if ((LCompteur & 0b0010) == 1) // S1
+    if (LCompteur & 0b0010) // S1
     {
         BL2On();
     }
@@ -227,7 +206,7 @@ void __ISR(_TIMER_4_VECTOR, ipl1AUTO) IntHandlerDrvTmrInstance3(void)
         BL2Off();
     }
 
-    if ((LCompteur & 0b0100) == 1) // S2
+    if (LCompteur & 0b0100) // S2
     {
         BL3On();
     }
@@ -236,35 +215,26 @@ void __ISR(_TIMER_4_VECTOR, ipl1AUTO) IntHandlerDrvTmrInstance3(void)
         BL3Off();
     }
 
-    if ((LCompteur & 0b1000) == 1) // S3
+    if (LCompteur & 0b1000) // S3
     {
         BL4On();
     }
     else
     {
         BL4Off();
-    }*/
-    
+    }
 
-    // Commande de l'allumage de la colonne de la matrice A
-    // correspondante via le driver A
-//        LATD = LEDMatrix.Top[LCompteur];
+    // Réactiver les DEMUX
+    // Logique des entrées inversées car actif à l'état BAS
+    AMatriceONOff();
+    BMatriceONOff();
 
-    // Commande de l'allumage de la colonne de la matrice B
-    // correspondante via le driver B
-//        LATA = (PORTA & 0xFF00) | (LEDMatrix.Bot[LCompteur] & 0x00FF);
-//        LATB = (PORTB & 0x00FF) | ((LEDMatrix.Bot[LCompteur] & 0xFF00));
-
-
-    // Logique inversee pour ces DEMUX car actifs BAS
-//        ConfigIOOn();
-    
-    LCompteur ++;
+    // Incrément
+    LCompteur++;
     if(LCompteur >= 16)
     {
         LCompteur = 0;
     }
-    
 }
 
 void __ISR(_SPI_2_VECTOR, ipl1AUTO) _IntHandlerSPIInstance0(void)

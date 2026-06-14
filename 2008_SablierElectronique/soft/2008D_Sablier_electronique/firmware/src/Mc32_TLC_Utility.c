@@ -25,63 +25,6 @@
 
 uint8_t tlc_GSData[NBR_TLC * 24];
 
-
-//void TLC5940_SetAllColumnsMax(void)
-//{
-//    // 1. Désactiver physiquement les sorties pendant la configuration
-//    BLANK_TLCOn();  
-//
-//    // 2. Sélectionner le mode Grayscale et sécuriser les horloges
-//    VPRG_TLCOff();  
-//    SCLK_TLCOff();
-//    XLAT_TLCOff();
-//
-//    // 3. Maintenir la donnée à 1 (niveau de luminosité maximum = 4095)
-//    SIN_TLCOn();    
-//
-//    // 4. Générer 192 impulsions d'horloge pour remplir les 16 registres de 12 bits
-//    int i;
-//    for(i = 0; i < 192; i++)
-//    {
-//        SCLK_TLCOn();
-//        asm volatile("nop"); 
-//        SCLK_TLCOff();
-//        asm volatile("nop");
-//    }
-//
-//    // 5. Verrouiller les données dans le registre interne (Latch)
-//    XLAT_TLCOn();
-//    asm volatile("nop");
-//    XLAT_TLCOff();
-//}
-//
-//void TLC5940_SendRowData(uint16_t rowDataTop, uint16_t rowDataBot)
-//{
-//    int col, bit;
-//    
-//    // Envoyer d'abord les donnees de la matrice B (qui vont glisser vers le 2eme TLC5940)
-//    for(col = 15; col >= 0; col--)
-//    {
-//        if((rowDataBot >> col) & 1) { SIN_TLCOn(); } else { SIN_TLCOff(); }
-//        for(bit = 0; bit < 12; bit++)
-//        {
-//            SCLK_TLCOn();
-//            SCLK_TLCOff(); 
-//        }
-//    }
-//
-//    // Envoyer ensuite les donnees de la matrice A (qui vont rester dans le 1er TLC5940)
-//    for(col = 15; col >= 0; col--)
-//    {
-//        if((rowDataTop >> col) & 1) { SIN_TLCOn(); } else { SIN_TLCOff(); }
-//        for(bit = 0; bit < 12; bit++)
-//        {
-//            SCLK_TLCOn();
-//            SCLK_TLCOff(); 
-//        }
-//    }
-//}
-
 void TLC5940_Init(void)
 {
     // BLANK HIGH : sorties désactivées pendant l'init
